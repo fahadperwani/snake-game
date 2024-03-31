@@ -51,3 +51,20 @@ p {
 button:disabled {
   cursor: not-allowed;
 }
+
+.play-info h2 {
+  text-align: center;
+}
+
+.play-info li span {
+  display: inline-flex;
+  background-color: black;
+  color: white;
+  border-radius: 2px;
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 0;
+
+}

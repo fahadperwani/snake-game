@@ -22,6 +22,21 @@ function Information({ isGameEnded, resetBoard, gameStarted }) {
       >
         Change Mode
       </button>
+      <ul className="play-info">
+        <h2>How to play</h2>
+        <li>
+          Use <span>d</span> to move right/ to start the game
+        </li>
+        <li>
+          Use <span>a</span> to move left
+        </li>
+        <li>
+          Use <span>s</span> to move down
+        </li>
+        <li>
+          Use <span>a</span> to move up
+        </li>
+      </ul>
     </div>
   );
 }
